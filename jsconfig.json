@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "target": "es6",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "baseUrl": "./src/",
+    "paths": {
+      "@action/*": ["controller/action/*"],
+      "@repo/*": ["controller/repo/*"]
+    }
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
